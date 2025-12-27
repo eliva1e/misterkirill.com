@@ -1,6 +1,6 @@
 # misterkirill.com
 
-My simple website to share my links
+A simple website to share my links
 
 ## Build
 
