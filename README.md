@@ -1,2 +1,9 @@
 # misterkirill.com
-My simple bio website
+
+My simple website to share my links
+
+## Build
+
+```sh
+$ npm i && npm build
+```
