@@ -10,11 +10,11 @@ export function Button({ label, href, backgroundColor, color, icon }: ButtonProp
   return (
     <a href={href}>
       <button
-        className="flex items-center gap-4 w-80 px-2 py-2 rounded-full shadow-lg cursor-pointer transition-all duration-250 hover:scale-105 hover:shadow-lg active:scale-95"
+        className="flex items-center gap-4 w-80 h-12 px-4 rounded-full shadow-lg cursor-pointer transition-all duration-250 hover:scale-105 hover:shadow-lg active:scale-95"
         style={{ backgroundColor: backgroundColor || 'black', color }}
       >
-        <span className="text-2xl">{icon}</span>
-        <span className="mx-auto">{label}</span>
+        <span className="text-3xl">{icon}</span>
+        <span className="mx-auto font-bold">{label}</span>
       </button>
     </a>
   );

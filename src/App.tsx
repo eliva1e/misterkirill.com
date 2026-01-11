@@ -1,3 +1,4 @@
+import { SiChessdotcom, SiLichess } from 'react-icons/si';
 import avatar from './assets/avatar.png';
 import { type ButtonProps, Button } from './Button';
 import { FaGithub, FaSpotify, FaTelegram, FaYoutube } from 'react-icons/fa';
@@ -53,6 +54,24 @@ const categories: Category[] = [
         backgroundColor: '#FED42B',
         color: 'black',
         icon: <IoMdMusicalNote />,
+      },
+    ],
+  },
+  {
+    label: 'Chess',
+    buttons: [
+      {
+        label: 'Chess.com',
+        href: 'https://www.chess.com/member/misterkirill1',
+        backgroundColor: '#69923e',
+        icon: <SiChessdotcom />,
+      },
+      {
+        label: 'Lichess',
+        href: 'https://lichess.org/@/misterkirill',
+        backgroundColor: 'white',
+        color: 'black',
+        icon: <SiLichess />,
       },
     ],
   },
